@@ -1,0 +1,375 @@
+Okt. 31, 2021 6:16:37 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Trying to open and read file with unlucky numbers.
+
+Okt. 31, 2021 6:16:37 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Trying to save file with unlucky numbers: []
+
+Okt. 31, 2021 6:16:37 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Wrote following String for file with unlucky numbers: 
+""
+
+Okt. 31, 2021 6:16:37 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Instance created.
+
+Okt. 31, 2021 6:16:37 NACHM. MyLogger log
+INFO: LuckyNumbers: Instance created.
+
+Okt. 31, 2021 6:16:37 NACHM. MyLogger log
+INFO: LuckyNumbers: Printing welcome screen and main menu.
+
+Okt. 31, 2021 6:16:37 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Returning list with unlucky numbers: []
+
+Okt. 31, 2021 6:16:37 NACHM. MyLogger log
+INFO: LuckyNumbers: Printed unlucky numbers.
+
+Okt. 31, 2021 6:16:37 NACHM. MyLogger log
+INFO: LuckyNumbers: Main menu printed, user input expected.
+
+Okt. 31, 2021 6:16:37 NACHM. MyLogger log
+WARNING: LuckyNumbers: 
+java.util.NoSuchElementException: No line found
+
+Okt. 31, 2021 6:16:54 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Trying to open and read file with unlucky numbers.
+
+Okt. 31, 2021 6:16:55 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Reading unlucky numbers from file succeeded: []
+
+Okt. 31, 2021 6:16:55 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Trying to save file with unlucky numbers: []
+
+Okt. 31, 2021 6:16:55 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Wrote following String for file with unlucky numbers: 
+""
+
+Okt. 31, 2021 6:16:55 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Instance created.
+
+Okt. 31, 2021 6:16:55 NACHM. MyLogger log
+INFO: LuckyNumbers: Instance created.
+
+Okt. 31, 2021 6:16:55 NACHM. MyLogger log
+INFO: LuckyNumbers: Printing welcome screen and main menu.
+
+Okt. 31, 2021 6:16:55 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Returning list with unlucky numbers: []
+
+Okt. 31, 2021 6:16:55 NACHM. MyLogger log
+INFO: LuckyNumbers: Printed unlucky numbers.
+
+Okt. 31, 2021 6:16:55 NACHM. MyLogger log
+INFO: LuckyNumbers: Main menu printed, user input expected.
+
+Okt. 31, 2021 6:16:55 NACHM. MyLogger log
+WARNING: LuckyNumbers: 
+java.util.NoSuchElementException: No line found
+
+Okt. 31, 2021 6:22:24 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Trying to open and read file with unlucky numbers.
+
+Okt. 31, 2021 6:22:24 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Reading unlucky numbers from file succeeded: []
+
+Okt. 31, 2021 6:22:24 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Trying to save file with unlucky numbers: []
+
+Okt. 31, 2021 6:22:24 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Wrote following String for file with unlucky numbers: 
+""
+
+Okt. 31, 2021 6:22:24 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Instance created.
+
+Okt. 31, 2021 6:22:24 NACHM. MyLogger log
+INFO: LuckyNumbers: Instance created.
+
+Okt. 31, 2021 6:22:24 NACHM. MyLogger log
+INFO: LuckyNumbers: Printing welcome screen and main menu.
+
+Okt. 31, 2021 6:22:24 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Returning list with unlucky numbers: []
+
+Okt. 31, 2021 6:22:24 NACHM. MyLogger log
+INFO: LuckyNumbers: Printed unlucky numbers.
+
+Okt. 31, 2021 6:22:24 NACHM. MyLogger log
+INFO: LuckyNumbers: Main menu printed, user input expected.
+
+Okt. 31, 2021 6:27:12 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Trying to open and read file with unlucky numbers.
+
+Okt. 31, 2021 6:27:12 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Reading unlucky numbers from file succeeded: []
+
+Okt. 31, 2021 6:27:12 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Trying to save file with unlucky numbers: []
+
+Okt. 31, 2021 6:27:13 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Wrote following String for file with unlucky numbers: 
+""
+
+Okt. 31, 2021 6:27:13 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Instance created.
+
+Okt. 31, 2021 6:27:13 NACHM. MyLogger log
+INFO: LuckyNumbers: Instance created.
+
+Okt. 31, 2021 6:27:13 NACHM. MyLogger log
+INFO: LuckyNumbers: Printing welcome screen and main menu.
+
+Okt. 31, 2021 6:27:13 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Returning list with unlucky numbers: []
+
+Okt. 31, 2021 6:27:13 NACHM. MyLogger log
+INFO: LuckyNumbers: Printed unlucky numbers.
+
+Okt. 31, 2021 6:27:13 NACHM. MyLogger log
+INFO: LuckyNumbers: Main menu printed, user input expected.
+
+Okt. 31, 2021 6:27:30 NACHM. MyLogger log
+INFO: LuckyNumbers: User Input 'l'.
+
+Okt. 31, 2021 6:27:30 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Set lucky numbers to [8, 10, 18, 24, 25, 36]
+
+Okt. 31, 2021 6:27:30 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Lucky Numbers generated: [8, 10, 18, 24, 25, 36]
+
+Okt. 31, 2021 6:27:30 NACHM. MyLogger log
+INFO: LuckyNumbers: Lucky numbers for Lotto printed.
+
+Okt. 31, 2021 6:27:30 NACHM. MyLogger log
+INFO: LuckyNumbers: Main menu printed, user input expected.
+
+Okt. 31, 2021 6:27:34 NACHM. MyLogger log
+INFO: LuckyNumbers: User Input 'e'.
+
+Okt. 31, 2021 6:27:34 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Set lucky numbers to [7, 15, 27, 33, 37]
+
+Okt. 31, 2021 6:27:34 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Lucky Numbers generated: [7, 15, 27, 33, 37]
+
+Okt. 31, 2021 6:27:34 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Set lucky numbers to [6, 8]
+
+Okt. 31, 2021 6:27:34 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Lucky Numbers generated: [6, 8]
+
+Okt. 31, 2021 6:27:34 NACHM. MyLogger log
+INFO: LuckyNumbers: Lucky numbers for Eurojackpot printed.
+
+Okt. 31, 2021 6:27:34 NACHM. MyLogger log
+INFO: LuckyNumbers: Main menu printed, user input expected.
+
+Okt. 31, 2021 6:29:24 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Trying to open and read file with unlucky numbers.
+
+Okt. 31, 2021 6:29:24 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Reading unlucky numbers from file succeeded: []
+
+Okt. 31, 2021 6:29:24 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Trying to save file with unlucky numbers: []
+
+Okt. 31, 2021 6:29:24 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Wrote following String for file with unlucky numbers: 
+""
+
+Okt. 31, 2021 6:29:24 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Instance created.
+
+Okt. 31, 2021 6:29:25 NACHM. MyLogger log
+INFO: LuckyNumbers: Instance created.
+
+Okt. 31, 2021 6:29:25 NACHM. MyLogger log
+INFO: LuckyNumbers: Printing welcome screen and main menu.
+
+Okt. 31, 2021 6:29:25 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Returning list with unlucky numbers: []
+
+Okt. 31, 2021 6:29:25 NACHM. MyLogger log
+INFO: LuckyNumbers: Printed unlucky numbers.
+
+Okt. 31, 2021 6:29:25 NACHM. MyLogger log
+INFO: LuckyNumbers: Main menu printed, user input expected.
+
+Okt. 31, 2021 6:29:27 NACHM. MyLogger log
+INFO: LuckyNumbers: User Input 'l'.
+
+Okt. 31, 2021 6:29:27 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Set lucky numbers to [3, 12, 25, 41, 42, 48]
+
+Okt. 31, 2021 6:29:27 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Lucky Numbers generated: [3, 12, 25, 41, 42, 48]
+
+Okt. 31, 2021 6:29:27 NACHM. MyLogger log
+INFO: LuckyNumbers: Lucky numbers for Lotto printed.
+
+Okt. 31, 2021 6:29:27 NACHM. MyLogger log
+INFO: LuckyNumbers: Main menu printed, user input expected.
+
+Okt. 31, 2021 6:29:29 NACHM. MyLogger log
+INFO: LuckyNumbers: User Input 'e'.
+
+Okt. 31, 2021 6:29:29 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Set lucky numbers to [1, 11, 23, 36, 42]
+
+Okt. 31, 2021 6:29:29 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Lucky Numbers generated: [1, 11, 23, 36, 42]
+
+Okt. 31, 2021 6:29:29 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Set lucky numbers to [8, 10]
+
+Okt. 31, 2021 6:29:29 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Lucky Numbers generated: [8, 10]
+
+Okt. 31, 2021 6:29:29 NACHM. MyLogger log
+INFO: LuckyNumbers: Lucky numbers for Eurojackpot printed.
+
+Okt. 31, 2021 6:29:29 NACHM. MyLogger log
+INFO: LuckyNumbers: Main menu printed, user input expected.
+
+Okt. 31, 2021 6:29:35 NACHM. MyLogger log
+INFO: LuckyNumbers: User Input 'u'.
+
+Okt. 31, 2021 6:29:35 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Returning list with unlucky numbers: []
+
+Okt. 31, 2021 6:29:35 NACHM. MyLogger log
+INFO: LuckyNumbers: Printed unlucky numbers.
+
+Okt. 31, 2021 6:29:35 NACHM. MyLogger log
+INFO: LuckyNumbers: Unlucky numbers menu printed, user input expected.
+
+Okt. 31, 2021 6:30:05 NACHM. MyLogger log
+INFO: LuckyNumbers: User input '+'.
+
+Okt. 31, 2021 6:30:05 NACHM. MyLogger log
+INFO: LuckyNumbers: Unlucky number from user expected.
+
+Okt. 31, 2021 6:30:07 NACHM. MyLogger log
+INFO: LuckyNumbers: User input '17'.
+
+Okt. 31, 2021 6:30:07 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Trying to add '17' to unlucky numbers
+
+Okt. 31, 2021 6:30:07 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Trying to save file with unlucky numbers: [17]
+
+Okt. 31, 2021 6:30:07 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Wrote following String for file with unlucky numbers: 
+"17"
+
+Okt. 31, 2021 6:30:07 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Returning list with unlucky numbers: [17]
+
+Okt. 31, 2021 6:30:07 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Returning list with unlucky numbers: [17]
+
+Okt. 31, 2021 6:30:07 NACHM. MyLogger log
+INFO: LuckyNumbers: Printed unlucky numbers.
+
+Okt. 31, 2021 6:30:08 NACHM. MyLogger log
+INFO: LuckyNumbers: Unlucky numbers menu printed, user input expected.
+
+Okt. 31, 2021 6:30:10 NACHM. MyLogger log
+INFO: LuckyNumbers: User input '+'.
+
+Okt. 31, 2021 6:30:10 NACHM. MyLogger log
+INFO: LuckyNumbers: Unlucky number from user expected.
+
+Okt. 31, 2021 6:30:15 NACHM. MyLogger log
+INFO: LuckyNumbers: User input '37'.
+
+Okt. 31, 2021 6:30:15 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Trying to add '37' to unlucky numbers
+
+Okt. 31, 2021 6:30:15 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Trying to save file with unlucky numbers: [17, 37]
+
+Okt. 31, 2021 6:30:15 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Wrote following String for file with unlucky numbers: 
+"17
+37"
+
+Okt. 31, 2021 6:30:15 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Returning list with unlucky numbers: [17, 37]
+
+Okt. 31, 2021 6:30:15 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Returning list with unlucky numbers: [17, 37]
+
+Okt. 31, 2021 6:30:15 NACHM. MyLogger log
+INFO: LuckyNumbers: Printed unlucky numbers.
+
+Okt. 31, 2021 6:30:15 NACHM. MyLogger log
+INFO: LuckyNumbers: Unlucky numbers menu printed, user input expected.
+
+Okt. 31, 2021 6:30:17 NACHM. MyLogger log
+INFO: LuckyNumbers: User input 'h'.
+
+Okt. 31, 2021 6:30:17 NACHM. MyLogger log
+INFO: LuckyNumbers: Main menu printed, user input expected.
+
+Okt. 31, 2021 6:30:20 NACHM. MyLogger log
+INFO: LuckyNumbers: User Input 'q'.
+
+Okt. 31, 2021 6:30:20 NACHM. MyLogger log
+INFO: LuckyNumbers: Closing program.
+
+Okt. 31, 2021 6:30:47 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Trying to open and read file with unlucky numbers.
+
+Okt. 31, 2021 6:30:48 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Reading unlucky numbers from file succeeded: [17, 37]
+
+Okt. 31, 2021 6:30:48 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Trying to save file with unlucky numbers: [17, 37]
+
+Okt. 31, 2021 6:30:48 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Wrote following String for file with unlucky numbers: 
+"17
+37"
+
+Okt. 31, 2021 6:30:48 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Instance created.
+
+Okt. 31, 2021 6:30:48 NACHM. MyLogger log
+INFO: LuckyNumbers: Instance created.
+
+Okt. 31, 2021 6:30:48 NACHM. MyLogger log
+INFO: LuckyNumbers: Printing welcome screen and main menu.
+
+Okt. 31, 2021 6:30:48 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Returning list with unlucky numbers: [17, 37]
+
+Okt. 31, 2021 6:30:48 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Returning list with unlucky numbers: [17, 37]
+
+Okt. 31, 2021 6:30:48 NACHM. MyLogger log
+INFO: LuckyNumbers: Printed unlucky numbers.
+
+Okt. 31, 2021 6:30:48 NACHM. MyLogger log
+INFO: LuckyNumbers: Main menu printed, user input expected.
+
+Okt. 31, 2021 6:30:52 NACHM. MyLogger log
+INFO: LuckyNumbers: User Input 'l'.
+
+Okt. 31, 2021 6:30:52 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Set lucky numbers to [3, 21, 34, 41, 43, 49]
+
+Okt. 31, 2021 6:30:52 NACHM. MyLogger log
+INFO: LuckyNumbersGenerator: Lucky Numbers generated: [3, 21, 34, 41, 43, 49]
+
+Okt. 31, 2021 6:30:52 NACHM. MyLogger log
+INFO: LuckyNumbers: Lucky numbers for Lotto printed.
+
+Okt. 31, 2021 6:30:52 NACHM. MyLogger log
+INFO: LuckyNumbers: Main menu printed, user input expected.
+
+Okt. 31, 2021 6:33:53 NACHM. MyLogger log
+INFO: LuckyNumbers: User Input 'q'.
+
+Okt. 31, 2021 6:33:53 NACHM. MyLogger log
+INFO: LuckyNumbers: Closing program.
+

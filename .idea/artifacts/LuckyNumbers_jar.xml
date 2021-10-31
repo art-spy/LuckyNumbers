@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="LuckyNumbers:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/LuckyNumbers_jar</output-path>
+    <output-path>$PROJECT_DIR$/built</output-path>
     <root id="archive" name="LuckyNumbers.jar">
       <element id="module-output" name="LuckyNumbers" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter/5.7.0/junit-jupiter-5.7.0.jar" path-in-jar="/" />
