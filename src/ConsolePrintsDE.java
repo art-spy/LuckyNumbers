@@ -11,7 +11,7 @@ public class ConsolePrintsDE {
     /* Various Strings for printing all menus and messages on the console in German language */
 
     private final String hello =
-            "--- Willkommen bei LuckyNumbers! --- ";
+            "\n--- Willkommen bei LuckyNumbers! --- ";
 
     private final String mainMenuTitle =
             "\n--- HAUPTMENÜ ---";

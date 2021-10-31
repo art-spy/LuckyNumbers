@@ -1,7 +1,5 @@
-import java.io.IOException;
 import java.util.Scanner;
 import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  * The main UI functionality  of the Lucky Numbers program.
@@ -72,7 +70,7 @@ public class LuckyNumbers {
         MyLogger.log(Level.INFO, LuckyNumbers.class.getName() + ": Printing welcome screen and main menu.");
 
         consolePrints.printHello();
-        this.showUnluckyNumbers();
+        this.printUnluckyNumbers();
         this.printMainMenuUI();
     }
 
@@ -83,7 +81,7 @@ public class LuckyNumbers {
     private void printMainMenuUI(){
         Scanner scanner = new Scanner(System.in);
         try {
-            if(currentMenu != "MainMenu"){
+            if(!currentMenu.equals("MainMenu")){
                 consolePrints.printMainMenuTitle();
                 this.currentMenu = "MainMenu";
             }
@@ -158,11 +156,11 @@ public class LuckyNumbers {
     private void printUnluckyNumbersMenuUI(){
         Scanner scanner = new Scanner(System.in);
         try {
-            if(currentMenu != "UnluckyNumbersMenu"){
+            if(!currentMenu.equals("UnluckyNumbersMenu")){
                 consolePrints.printUnluckyNumbersMenuTitle();
                 this.currentMenu = "UnluckyNumbersMenu";
             }
-            this.showUnluckyNumbers();
+            this.printUnluckyNumbers();
             consolePrints.printUnluckyNumbersMenu();
             MyLogger.log(Level.INFO, LuckyNumbers.class.getName() + ": Unlucky numbers menu printed, user input expected.");
 
@@ -175,7 +173,7 @@ public class LuckyNumbers {
 //                    this.printUnluckyNumbersMenuUI();
 //                    break;
                 case "+":
-                    this.addUnluckyNumbers();
+                    this.addUnluckyNumbersUI();
                     this.printUnluckyNumbersMenuUI();
                     break;
                 case "-":
@@ -205,7 +203,7 @@ public class LuckyNumbers {
      * Prints the user defined unlucky numbers (by using the 'ConsolePrints' and 'LuckyNumbersGenerator' class)
      * and handles the user input.
      */
-    private void showUnluckyNumbers(){
+    private void printUnluckyNumbers(){
         if( luckyNumbersGenerator.getUnluckyNumbers().isEmpty() ) {
             consolePrints.printNoUnluckyNumbers();
         }
@@ -221,7 +219,7 @@ public class LuckyNumbers {
      * Lets the user add a new unlucky number (by using the 'ConsolePrints' and 'LuckyNumbersGenerator' class)
      * and handles the user input.
      */
-    private void addUnluckyNumbers(){
+    private void addUnluckyNumbersUI(){
         Scanner scanner = new Scanner(System.in);
         try {
             consolePrints.printTypeUnluckyNumbers();
@@ -244,7 +242,7 @@ public class LuckyNumbers {
             }
             else {
                 consolePrints.printInvalidInput();
-                this.addUnluckyNumbers();
+                this.addUnluckyNumbersUI();
                 // this.printUnluckyNumbersMenuUI();
             }
         }
