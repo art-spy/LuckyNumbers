@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 
 /**
@@ -105,7 +106,7 @@ public class LuckyNumbers {
                     break;
                 case "q":
                     consolePrints.printGoodbye();
-
+                    TimeUnit.SECONDS.sleep(3);
                     MyLogger.log(Level.INFO, LuckyNumbers.class.getName() + ": Closing program." );
                     System.exit(0);
                     break;

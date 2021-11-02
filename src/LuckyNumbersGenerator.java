@@ -187,18 +187,18 @@ public class LuckyNumbersGenerator implements LuckyNumbersGeneratorInterface {
     public void saveUnluckyNumbers() {
         MyLogger.log(Level.INFO, LuckyNumbersGenerator.class.getName() + ": Trying to save file with unlucky numbers: " + this.unluckyNumbers);
 
-        String unluckyNumbersString = "";
+        StringBuilder unluckyNumbersString = new StringBuilder();
         for (int i: this.unluckyNumbers){
             // unluckyNumbersString.concat(String.valueOf(i));
-            unluckyNumbersString = unluckyNumbersString + i;
+            unluckyNumbersString.append(i);
             if( (this.unluckyNumbers.indexOf(i) + 1) != this.unluckyNumbers.size()){
                 // unluckyNumbersString.concat("\n");
-                unluckyNumbersString = unluckyNumbersString + "\n";
+                unluckyNumbersString.append("\n");
             }
         }
         try {
             FileWriter myWriter = new FileWriter(this.unluckyNumbersFile);
-            myWriter.write(unluckyNumbersString);
+            myWriter.write(unluckyNumbersString.toString());
             myWriter.close();
 
             MyLogger.log(Level.INFO, LuckyNumbersGenerator.class.getName() + ": Wrote following String for file with unlucky numbers: \n\"" + unluckyNumbersString + "\"");
@@ -215,7 +215,7 @@ public class LuckyNumbersGenerator implements LuckyNumbersGeneratorInterface {
     @Override
     public void deleteUnluckyNumbers() {
         this.unluckyNumbers.clear();
-        MyLogger.log(Level.WARNING, LuckyNumbersGenerator.class.getName() + ": Cleared list with unlucky numbers: " + this.unluckyNumbers);
+        MyLogger.log(Level.INFO, LuckyNumbersGenerator.class.getName() + ": Cleared list with unlucky numbers: " + this.unluckyNumbers);
         this.saveUnluckyNumbers();
     }
 }
