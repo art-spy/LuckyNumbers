@@ -1,6 +1,9 @@
 import java.io.IOException;
 import java.util.logging.*;
 
+/**
+ * User defined static logger class for logging purposes.
+ */
 public class MyLogger {
     private static Logger logger;
     private static FileHandler fileTxt;
@@ -27,6 +30,7 @@ public class MyLogger {
         logger.info("Info Log");
         logger.finest("Really not important");
 
+        //creates a log file
         try
         {
             fileTxt = new FileHandler("Log.txt", true);
@@ -36,7 +40,7 @@ public class MyLogger {
             e.printStackTrace();
         }
 
-        // create a TXT formatter
+        // creates a TXT formatter
         formatterTxt = new SimpleFormatter();
         fileTxt.setFormatter(formatterTxt);
         logger.addHandler(fileTxt);
@@ -48,6 +52,10 @@ public class MyLogger {
 //        myLogger.log();
     }
 
+    /**
+     * Initializes a new user defined logger.
+     * @return A new user defined logger (MyLogger class).
+     */
     private static Logger getLogger(){
         if(logger == null){
             try {
@@ -60,6 +68,11 @@ public class MyLogger {
         return logger;
     }
 
+    /**
+     * Static method that can be used for logging a user defined message (with it's log level) into a log file.
+     * @param level Sets the log level for the message (SEVERE, WARNING, INFO, FINE, FINEST).
+     * @param msg A log message that should be written into a log file.
+     */
     public static void log(Level level, String msg){
         getLogger().log(level, msg + "\n");
     }

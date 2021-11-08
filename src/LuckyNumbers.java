@@ -1,3 +1,5 @@
+import java.io.InputStream;
+import java.io.PrintStream;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
@@ -40,20 +42,33 @@ public class LuckyNumbers {
     excluding user defined unlucky numbers */
     private LuckyNumbersGenerator luckyNumbersGenerator;
 
+    /* For testing a predefined user input can be set */
+    private Scanner systemIn;
+    // private PrintStream systemOut;
+
     /**
      * Constructor that initialises the object variables.
      */
     public LuckyNumbers(){
+        this(System.in, System.out);
+    }
+
+    /**
+     * Constructor that initialises the object variables.
+     */
+    public LuckyNumbers(InputStream inputStream, PrintStream printStream) {
+        this.systemIn = new Scanner(inputStream);
+        // this.systemOut = printStream;
+
         // MyLogger.log(Level.INFO, this.getClass().getName() + this.getClass().getEnclosingMethod().getName() + ": Creating instance.");
         this.lastLottery = "lotto";
-        this.consolePrints = new ConsolePrintsDE();
+        this.consolePrints = new ConsolePrintsDE(printStream);
         this.luckyNumbersGenerator = new LuckyNumbersGenerator(maxUnluckyNumbersAmount);
         this.currentMenu = "";
 
         MyLogger.log(Level.INFO, LuckyNumbers.class.getName() + ": Instance created.");
 
         this.run();
-
     }
 
     /**
@@ -79,8 +94,8 @@ public class LuckyNumbers {
      * Prints the main menu (by using the 'ConsolePrints' class), handles the user input
      * and prints lucky numbers excluding user defined unlucky numbers (by using the 'LuckyNumbersGenerator' class)
      */
-    private void printMainMenuUI(){
-        Scanner scanner = new Scanner(System.in);
+    public void printMainMenuUI(){
+        Scanner scanner = systemIn;
         try {
             if(!currentMenu.equals("MainMenu")){
                 consolePrints.printMainMenuTitle();
@@ -155,7 +170,7 @@ public class LuckyNumbers {
      * Prints the unlucky numbers menu (by using the 'ConsolePrints' class) and handles the user input.
      */
     private void printUnluckyNumbersMenuUI(){
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = systemIn;
         try {
             if(!currentMenu.equals("UnluckyNumbersMenu")){
                 consolePrints.printUnluckyNumbersMenuTitle();
@@ -221,7 +236,7 @@ public class LuckyNumbers {
      * and handles the user input.
      */
     private void addUnluckyNumbersUI(){
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = systemIn;
         try {
             consolePrints.printTypeUnluckyNumbers();
             consolePrints.printConfirmSelection();

@@ -1,3 +1,4 @@
+import java.io.PrintStream;
 import java.util.Arrays;
 import java.util.List;
 
@@ -5,8 +6,6 @@ import java.util.List;
  * Class for printing all menus and messages on the console in German language.
  */
 public class ConsolePrintsDE {
-
-    // private String currentMenu;
 
     /* Various Strings for printing all menus and messages on the console in German language */
 
@@ -65,23 +64,25 @@ public class ConsolePrintsDE {
     private final String goodbye =
             "\nAuf Wiedersehen, bis zum nächsten Mal :)";
 
+    /* For testing the console output can be read */
+    private PrintStream systemOut;
 
-    public ConsolePrintsDE() {
-        // setCurrentMenu("MainMenu");
+    public ConsolePrintsDE(PrintStream printStream) {
+        systemOut = printStream;
     }
 
     /**
      * Prints a welcome message on the console.
      */
     public void printHello(){
-        System.out.println(hello);
+        systemOut.println(hello);
     }
 
     /**
      * Prints the main menu title on the console.
      */
     public void printMainMenuTitle(){
-        System.out.println(mainMenuTitle);
+        systemOut.println(mainMenuTitle);
     }
 
     /**
@@ -89,11 +90,11 @@ public class ConsolePrintsDE {
      */
     public void printMainMenu() {
 //        if(currentMenu != "MainMenu"){
-//            System.out.println(mainMenuTitle);
+//            systemOut.println(mainMenuTitle);
 //            setCurrentMenu("MainMenu");
 //        }
-        System.out.println(mainMenu);
-        System.out.println(confirmSelection);
+        systemOut.println(mainMenu);
+        systemOut.println(confirmSelection);
     }
 
     /**
@@ -101,7 +102,7 @@ public class ConsolePrintsDE {
      * @param numbers a list with six lucky numbers
      */
     public void printLotto(List<Integer> numbers) {
-        System.out.println(
+        systemOut.println(
                 lotto + "\n" +
                 numbers);
     }
@@ -112,7 +113,7 @@ public class ConsolePrintsDE {
      * @param ej2from10list a list with two lucky numbers
      */
     public void printEurojackpot(List<Integer> ej5from50list, List<Integer> ej2from10list) {
-        System.out.println(
+        systemOut.println(
                 eurojackpot + "\n" +
                 ej5from50 + ej5from50list + "\n" +
                 ej2from10 + ej2from10list
@@ -123,7 +124,7 @@ public class ConsolePrintsDE {
      * Prints the unlucky numbers menu title on the console.
      */
     public void printUnluckyNumbersMenuTitle(){
-        System.out.println(unluckyNumbersTitle);
+        systemOut.println(unluckyNumbersTitle);
     }
 
     /**
@@ -131,11 +132,11 @@ public class ConsolePrintsDE {
      */
     public void printUnluckyNumbersMenu() {
 //        if(currentMenu != "UnluckyNumbersMenu"){
-//            System.out.println(unluckyNumbersTitle);
+//            systemOut.println(unluckyNumbersTitle);
 //            setCurrentMenu("UnluckyNumbersMenu");
 //        }
-        System.out.println(unluckyNumbersMenu);
-        System.out.println(confirmSelection);
+        systemOut.println(unluckyNumbersMenu);
+        systemOut.println(confirmSelection);
     }
 
     /**
@@ -143,7 +144,7 @@ public class ConsolePrintsDE {
      * @param numbers a list with unlucky numbers
      */
     public void printCurrentUnluckyNumbers(List<Integer> numbers) {
-        System.out.println(
+        systemOut.println(
                 currentUnluckyNumbers + "\n" +
                 numbers
         );
@@ -153,21 +154,21 @@ public class ConsolePrintsDE {
      * Prints a message on the console that no unlucky numbers has been saved yet.
      */
     public void printNoUnluckyNumbers() {
-        System.out.println(noUnluckyNumbers);
+        systemOut.println(noUnluckyNumbers);
     }
 
     /**
      * Prints a message on the console to type an unlucky number.
      */
     public void printTypeUnluckyNumbers() {
-        System.out.println(typeUnluckyNumbers);
+        systemOut.println(typeUnluckyNumbers);
     }
 
     /**
      * Prints a message on the console that all unlucky numbers has been deleted.
      */
     public void printUnluckyNumbersDeleted() {
-        System.out.println(unluckyNumbersDeleted);
+        systemOut.println(unluckyNumbersDeleted);
     }
 
     /**
@@ -175,35 +176,35 @@ public class ConsolePrintsDE {
      * @param maxUnluckyNumbers maximum amount of unlucky numbers that can be saved
      */
     public void printMaxUnluckyNumbers(int maxUnluckyNumbers) {
-        System.out.println(maxUnluckyNumbers1 + maxUnluckyNumbers + maxUnluckyNumbers2);
+        systemOut.println(maxUnluckyNumbers1 + maxUnluckyNumbers + maxUnluckyNumbers2);
     }
 
     /**
      * Prints a message on the console that all unlucky numbers has been saved.
      */
     public void printUnluckyNumbersSaved() {
-        System.out.println(unluckyNumbersSaved);
+        systemOut.println(unluckyNumbersSaved);
     }
 
     /**
      * Prints a message on the console that the user input is invalid.
      */
     public void printInvalidInput() {
-        System.out.println(invalidInput);
+        systemOut.println(invalidInput);
     }
 
     /**
      * Prints a message on the console to confirm the user selection with 'enter'.
      */
     public void printConfirmSelection(){
-        System.out.println(confirmSelection);
+        systemOut.println(confirmSelection);
     }
 
     /**
      * Prints a goodbye message on the console.
      */
     public void printGoodbye(){
-        System.out.println(goodbye);
+        systemOut.println(goodbye);
     }
 
 }
